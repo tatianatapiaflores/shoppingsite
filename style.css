@@ -1,14 +1,14 @@
 *{
- margin-left: 25px;
- margin-right: 25px;
- background-color: black;
- color: blanchedalmond;
+margin: 0px;
+padding: 6px;
+ color: black;
  @media only screen and (max-width: 700px){
      width: 49.99999%;
      margin: 6px 0;
  }
 }
 nav{
+    background-color: palegreen;
   justify-content: space-around;
   display: flex;
   align-items: center;
@@ -36,8 +36,53 @@ h3{
 p{
     font-size: 18px;
     margin-top: 25px;
-    text-align: center;
 }
 .a-new{
     margin-top: 35px;
+    text-align: center;
+}
+span{
+    color: orange;
+}
+.title{
+    align-items: center;
+    text-align: center;
+}
+.reviews{
+    justify-content: space-around;
+    display: flex;
+}
+.reviews2{
+    justify-content: space-around;
+    display: flex;
+}
+.review1 {
+    flex: 1;
+}
+.review2 {
+    flex: 1;
+}
+.review3 {
+    flex: 1;
+}
+.review4 {
+    flex: 1;
+}
+h4{
+    text-align: center;
+}
+.photos{
+    justify-content: space-evenly;
+    display: flex;
+}
+.Photos2{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.footer{
+    background-color: paleturquoise;
+    justify-content: space-evenly;
+    display: flex;
+    font-family: 'Dancing Script', cursive;
 }

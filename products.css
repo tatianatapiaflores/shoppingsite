@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 6px;
+     color: black;
+     @media only screen and (max-width: 700px){
+         width: 49.99999%;
+         margin: 6px 0;
+     }
+     
+}
+    body{
+        background-color: rgb(36, 35, 35);
+    }
+    nav{
+      justify-content: space-around;
+      display: flex;
+      align-items: center;
+      font-family: 'Dancing Script', cursive;
+      background-color:grey;
+    }
+    a{
+        text-decoration: none;
+    }
+    .name{ 
+        font-family: 'Dancing Script', cursive;
+    }
+    .venus{
+        justify-content: space-evenly;
+        display: flex;
+    }
+    .product{
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+    }
+    .products{
+        font-family: 'Dancing Script', cursive;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+
+    }
+    .footer{
+        background-color: paleturquoise;
+        justify-content: space-evenly;
+        display: flex;
+        font-family: 'Dancing Script', cursive;
+    }
+    
